@@ -1,0 +1,155 @@
+* {
+	box-sizing:border-box;
+}
+body{
+	/*color:#ff216d;*/
+	/*color:#006064;*/
+	
+	
+}
+
+p{
+	margin-top: 20px;
+}
+
+
+#head{
+	text-align:center;
+	color:#fff;
+}
+
+#center{
+	height: 650px;
+	/*padding:50px;*/
+	
+	/*align-items: center;*/
+}
+
+/*#footer{
+	background-color: #21ffce;
+	
+	font-family: 'Handlee', cursive;
+	height: 100px;
+	bottom: 100%;
+	float : bottom;
+}*/
+
+#logo{
+	height: 100px;
+	float: left;
+	width: 20%;
+	padding-left: 10px;
+}
+
+.title{
+	/*align-items: center;*/
+	height: 100px;
+	float: left;
+	width: 60%;
+	font-size: 50px;
+	text-align:center;
+}
+
+.date{
+	width: 20%;
+	padding-top: 20px;
+	height: 100px;
+	float: right;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+a {
+	text-decoration: none;
+	color : #ff8000;
+	line-height: 20px;
+}
+
+a:hover{
+	color : lime;
+	font-size: 20px;
+}
+
+.loginForm{
+	text-align:center;
+}
+
+
+.loginForm input[type="text"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline : none;
+	height : 40px;	
+	color : #fff;
+	font-size: 20px;	
+}
+.loginForm input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline : none;
+	height : 40px;	
+	color : #fff;
+	font-size: 20px;	
+}
+
+.loginForm input[type = "submit"] , input[type = "reset"]{
+	border : none;
+	outline: none;
+	height: 35px;
+	width : 40%;
+	background : red;
+	color : #fff;
+	font-size: 20px; 
+	border-radius : 20px; 
+}
+
+form input[type = "submit"]:hover,input[type = "reset"]:hover{
+	cursor : pointer;
+	background : yellow;
+	color : #000;
+}
+
+
+.signupForm input[type="text"],input[type="password"],input[type="email"],input[type="date"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline : none;
+	height : 25px;	
+	color : #fff;
+	font-size: 14px;	
+}
+.signupForm input[type = "submit"] , input[type = "reset"]{
+	border : none;
+	outline: none;
+	height: 35px;
+	width : 40%;
+	background : red;
+	color : #fff;
+	font-size: 20px;  
+	border-radius : 20px; 
+}
+
+.box{
+	font-size: 30px;
+	height: 450px;
+	width: 50%;
+	color:#ffff;
+	background:rgba(0,0,0,.8);
+	top : 50%;
+	left :50%;
+	position:absolute;
+	transform:translate(-50%,-40%);
+	box-sizing:border-box;
+	padding: 70px 30px;
+}
+.avatar{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	top:-50px;
+	left:calc(50%-50px);
+}

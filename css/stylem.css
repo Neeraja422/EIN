@@ -1,0 +1,133 @@
+
+nav{
+    position : fixed;
+    width:100%;
+    height: auto;
+    background-color: rgba(0,0,0,.5);
+    z-index: 99;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 30px;
+    line-height: 50px;
+    color: #fff;
+}.demo{ background: #eee; }
+.maintab{
+    background-color: #D6D6D6;
+}
+.subtab1{
+    background-color: #eee;
+}
+.subtab2{
+    background-color: #eee;
+}
+.subtab3{
+    background-color: #eee;
+}
+.subtab4{
+    background-color: #eee;
+}
+.part1{
+
+    height:25%;
+    width: 100%;
+    background-color: #999;
+
+}
+.collapsepart{
+    width: 80%;
+}
+.part2{
+    height: 100%;
+}
+a:hover,a:focus{
+    outline: none;
+    text-decoration: none;
+}
+
+
+html, body{
+    font-family: Eco 2;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.tab .nav-tabs{
+    display: inline-block;
+    background: #fff;
+    border-radius: 50px;
+    border: none;
+    padding: 6px;
+}
+
+.tab .nav-tabs li{
+    float: none;
+    display: inline-block;
+    position: relative;
+}
+
+.tab .nav-tabs li a{
+    font-size: 16px;
+    font-weight: 700;
+    background: none;
+    color: #999;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: all 0.5s ease 0s;
+}
+
+.tab .nav-tabs li a:hover{
+    background: #ffa399;
+    color: #fff;
+    border: none;
+}
+.heading-title
+{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.tab .nav-tabs li.active a,
+.tab .nav-tabs li.active a:focus,
+.tab .nav-tabs li.active a:hover{
+    border: none;
+    background: #ffa399;
+    color: #fff;
+}
+
+.tab .tab-content{
+    font-size: 14px;
+    color: #686868;
+    line-height: 25px;
+    text-align: left;
+    padding: 5px 20px;
+}
+
+.tab .tab-content h3{
+    font-size: 22px;
+    color: #5b5a5a;
+}
+
+@media only screen and (max-width: 480px){
+    .tab .nav-tabs{
+        border-radius: 10px;
+    }
+    .tab .nav-tabs li{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+}
+/* CSS Document */
+
+
+footer{
+    height:auto;
+    width: 100%;
+    z-index: 99;
+    text-align: center;
+}

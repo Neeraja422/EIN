@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="css/bootstrap.css" rel="stylesheet" />
+      <link href="css/bootstrap-theme.css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+      <link href="dashboard.css" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Education In India</title><link href="logo.png" rel="icon" type="x-icon/image">
+
+  </head>
+  <body>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <div class="navbar navbar-dark bg-dark navbar-expand-lg">
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mySidebar" aria-controls="mySidebar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      </div>
+      <div class="content content-dark  bg-dark">
+          
+      <div class="sidebar sidebar-dark   navbar-expand-lg" role="navigation" >
+          <div class="collapse navbar-collapse " id="mySidebar">
+            <ul  >
+            <li class="nav-item"><img class="user" src="imagesfile/user.png" > </li>
+            <li class="nav-item">STUDENT NAME</li>
+                <li class="nav-item"><button class="button btn-info " ><a class="nav-link" href="#">HOME</a></button></li>
+             
+            
+                <li class="nav-item"><button class="button btn-info " ><a  class="nav-link"   href="settings.html"><img class="icon" src="imagesfile/settings.png">  Settings</a></button></li>
+         
+                <li class="nav-item"><button class="button btn-info active" ><a  class="nav-link"  href="dashboard.html"><img class="icon" src="imagesfile/dashboard.png"> My Dashboard</a></button></li>
+         
+                <li class="nav-item"><button class="button btn-info" ><a class="nav-link"  href="#"> Profile</a></button></li>
+                <li class="nav-item"><button class="button btn-info" >Log-out </button></li>
+         
+          </ul>
+              </div>
+     
+    </div>
+       <div class="row navbar-text col-9 ">
+       <div class=" options nav-item" >
+           <a href="mycolleges.html" id="link1" >Selected courses , colleges</a>
+          </div>
+        <div class=" options nav-item ">
+            <a href="#" id="link2" >Applied colleges Entrance Exams</a>
+           </div>
+         <div class=" options nav-item ">
+            <a href="#" id="link3"> Notifications</a>
+             
+       </div>
+          <div class="textbox" id="accordion" >
+              
+              <div class="textarea">
+               <h5 class="header1"> My courses</h5>
+                  <div class="clg">   <button type="button" class="course" > Enginnering <span class='close' id="one" onclick='this.parentNode.parentNode.removeChild(this.parentNode); return false;'>x</span></button> 
+                      
+                     
+                 <button type="button" class="course" > Business<span class='close' id="two"onclick='this.parentNode.parentNode.removeChild(this.parentNode); return false;'>x</span></button>
+                      <button type="button" class="course" >Medical science<span class='close' id="three"onclick='this.parentNode.parentNode.removeChild(this.parentNode); return false;'>x</span></button>
+              </div>
+              <h5 class="header1">LIST OF COLLEGES</h5>
+                 
+          <div class="textarea">
+                
+                <div class="clg" >
+                     <button type="button" class="button btn-active " data-toggle="collapse" data-target="#text1"> Delhi institute of technology</button> 
+                     <div id="text1" class="text collapse" data-parent="#accordion">  South Moti Bagh, New Delhi, Delhi 110021<br>
+                     <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                     <button class="button remove " alt="Remove it from Dashboard">-Remove</button>
+                    
+                    <a href="#" class="btn btn-success">View More</a>
+             </div>
+              </div>
+              <div class="clg" >
+                     <button type="button" class="button btn-active" data-toggle="collapse" data-target="#text2"> Delhi institute of technology</button> 
+                     <div id="text2" class="text collapse" data-parent="#accordion"> South Moti Bagh, New Delhi, Delhi 110021<br>
+                     <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                     <button class="button remove " alt="Remove it from Dashboard">-Remove</button>
+                    
+                    <a href="#" class="btn btn-success">View More</a>
+             </div>
+              </div>
+              <div class="clg" >
+                     <button type="button" class="button btn-active" data-toggle="collapse"  data-target="#text3"> Delhi institute of technology</button> 
+                     <div id="text3"class="text collapse" data-parent="#accordion"> South Moti Bagh, New Delhi, Delhi 110021<br>
+                     <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                     <button class="button remove " alt="Remove it from Dashboard">-Remove</button>
+                    
+                    <a href="#" class="btn btn-success">View More</a>
+             </div>
+              </div>
+              
+               
+             
+                <div class="textarea">
+              <h5 class="header1">COLLEGES INFORMATION</h5>
+              <div class="table-responsive"><table class="table table-sm table-striped table-bordered table-light">
+               <thead scope="row"> 
+                  
+                   <tr class="bg-info">
+                    <td>S.no</td>
+                    <td>List of Colleges added to your dashboard</td>
+                    <td>Specialization</td>
+                      <td>Current Status</td>
+                    </tr>
+                </thead>
+                 <tr class="bg-active">
+                 <td>1.</td>
+                 <td>Delhi Technological University</td>
+                 <td>Technology</td>
+                 <td>43  SEATSFILLED</td>
+                </tr>
+                 <tr class="bg-info">
+                 <td>2.</td>
+                 <td>ABC Technological University</td>
+                 <td>General</td>
+                  <td>5 SEATS FILLED</td>
+                </tr>
+                 <tr class="bg-active">
+                 <td>3.</td>
+                 <td>SVS Technological University</td>
+                 <td>Mathemetics</td>
+                 <td>OPEN</td>
+                </tr>
+                 <tr class="bg-info">
+                 <td>4.</td>
+                 <td>MNV University of Commerce</td>
+                 <td>Economics</td>
+                 <td>OPEN</td>
+                </tr>
+                   </table>
+           </div>
+                </div> 
+              </div>
+           </div>
+           </div>
+     
+         </div>
+      
+      
+  </body>
+</html>

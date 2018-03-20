@@ -1,0 +1,179 @@
+body{
+     font-family: 'Exo 2', sans-serif;
+}
+.content{
+    height:900px;
+    
+    background-image: url("imagesfile/bgm3.jpg");
+}
+li.nav-item,.nav-link{
+    color:cornsilk;
+    padding: 6px 0 6px 0;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+.nav-item{
+    color:cornsilk;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    margin:5px 5px;
+    
+}
+.button{
+    width:200px;
+    margin-right: 10px;
+}
+
+.nav-link:hover,.nav-link:active,.active{
+     color:cornsilk;
+     
+   
+}
+.options a,.options a:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.options a:hover,.options a:active{
+    font-size:19px;
+    border-bottom: 2px solid white;
+}
+.icon{
+   width:29px;
+    height:29px;
+}
+.user{
+   margin-bottom: 9px;
+    width:130px;
+    height:140px;
+    
+ 
+}
+ h3{
+    color:crimson!important;
+    text-align: center;
+}
+.sidebar{
+    height: auto;
+    border:2px inset white;
+    border-radius: 10px;
+}
+.sidebar,.options{
+    color:azure;
+    margin:8px;
+    float:left;
+}
+.options{
+    width:255px;
+    
+    padding:5px 10px ;
+   
+}
+.remove{
+    border:2px solid blue;
+    color: blue;
+    float: right;
+    margin:6px;
+ }
+
+.checked{
+    color: orange;
+}
+.textbox{
+    width: 100%;
+    float: left;
+    margin-left:37px;
+  background-color: white;
+    border-radius: 8px;
+}
+
+.textarea{
+    width: 100%;
+    font-size:16px;
+    height:auto;
+    
+    margin-left: auto
+    margin-top:20px!important;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.table{
+    font-weight: 450;
+    
+}
+.caption1{
+   
+    float:none;
+    text-align: center;
+}
+.btn-active:hover{
+    font-size: 18px;
+}
+.btn-active{
+ background-color:#C5E7EF   ;
+    border-right: 25px solid #43ABE3 !important;
+    text-align:left!important;
+    width:100%;
+     border-radius: 8px;
+     padding:5px;
+}
+.clg{
+    padding:2px;
+   font-size: 17px;
+}
+.course{
+   background-color:#C5E7EF   ;
+     color:crimson;
+}
+
+    
+    .header1{
+         color: crimson;
+         margin-left: 12px;
+        font-size: 22px;
+    }
+      
+
+ @media only screen and (max-width:992px){
+     .navbar-toggler{
+        visibility:visible;
+     }  
+     
+    .navbar{
+        font-size: 18px
+        height:40px;
+    }
+     .row{
+         width:100%;
+         margin:0px;
+     }
+    .textbox{
+    width: 120%;
+    float: left;
+    margin-left:10px;
+  background-color: white;
+    border-radius: 8px;
+}
+   
+     
+}
+@media only screen and (min-width:992px){
+    
+
+    
+    .sidebar-nav{
+    width:255px;
+    height:560px;
+    text-align: center;
+    float:left;
+        
+    }
+   .navbar-toggler{
+        visibility: inherit!important;
+    }
+    
+    
+}
